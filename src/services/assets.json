@@ -1,0 +1,119 @@
+{
+  "packages": [
+    {
+      "package": "moment",
+      "version": "2.24.0",
+      "urls": ["https://g.alicdn.com/mylib/moment/2.24.0/min/moment.min.js"],
+      "library": "moment"
+    },
+    {
+      "package": "lodash",
+      "library": "_",
+      "urls": ["https://g.alicdn.com/platform/c/lodash/4.6.1/lodash.min.js"]
+    },
+    {
+      "package": "iconfont-icons",
+      "urls": "//at.alicdn.com/t/font_2369445_ukrtsovd92r.js"
+    },
+    {
+      "package": "@ant-design/icons",
+      "version": "5.3.7",
+      "urls": ["https://cdnjs.cloudflare.com/ajax/libs/ant-design-icons/5.3.7/index.umd.min.js"],
+      "library": "icons"
+    },
+    {
+      "package": "antd",
+      "version": "5.12.6",
+      "urls": [
+        "https://cdnjs.cloudflare.com/ajax/libs/antd/5.12.6/antd.min.js"
+      ],
+      "library": "antd"
+    },
+    {
+      "package": "@alilc/antd-lowcode-materials",
+      "version": "1.2.1",
+      "library": "AntdLowcode",
+      "urls": [
+        "https://alifd.alicdn.com/npm/@alilc/antd-lowcode-materials@1.2.1/build/lowcode/view.js",
+        "https://alifd.alicdn.com/npm/@alilc/antd-lowcode-materials@1.2.1/build/lowcode/view.css"
+      ],
+      "editUrls": [
+        "https://alifd.alicdn.com/npm/@alilc/antd-lowcode-materials@1.2.1/build/lowcode/view.js",
+        "https://alifd.alicdn.com/npm/@alilc/antd-lowcode-materials@1.2.1/build/lowcode/view.css"
+      ]
+    },
+    {
+      "package": "dayjs",
+      "version": "1.11.10",
+      "urls": [
+        "https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.10/dayjs.min.js"
+      ],
+      "ibrary": "dayjs"
+    },
+    {
+      "package": "@ant-design/pro-components",
+      "version": "2.6.49",
+      "urls": [
+        "https://unpkg.com/browse/@ant-design/pro-components@2.6.49/dist/pro-components.min.js",
+        "https://unpkg.com/browse/@ant-design/pro-components@2.6.49/dist/api.json"
+      ],
+      "ibrary": "antProComponents"
+    },
+    {
+      "package": "pro-material",
+      "version": "0.1.5",
+      "library": "ProMaterial",
+      "urls": [
+        "http://localhost:3333/build/lowcode/render/default/view.js",
+        "http://localhost:3333/build/lowcode/render/default/view.css"
+      ],
+      "editUrls": [
+        "http://localhost:3333/build/lowcode/view.js",
+        "http://localhost:3333/build/lowcode/view.css"
+      ],
+      "advancedUrls": {
+        "default": [
+          "http://localhost:3333/build/lowcode/render/default/view.js",
+          "http://localhost:3333/build/lowcode/render/default/view.css"
+        ]
+      },
+      "advancedEditUrls": {}
+    }
+  ],
+  "components": [
+    {
+      "exportName": "AlilcAntdLowcodeMaterialsMeta",
+      "npm": {
+        "package": "@alilc/antd-lowcode-materials",
+        "version": "1.2.1"
+      },
+      "url": "https://alifd.alicdn.com/npm/@alilc/antd-lowcode-materials@1.2.1/build/lowcode/meta.js",
+      "urls": {
+        "default": "https://alifd.alicdn.com/npm/@alilc/antd-lowcode-materials@1.2.1/build/lowcode/meta.js"
+      }
+    },
+    {
+      "exportName": "ProMaterialMeta",
+      "npm": {
+        "package": "pro-material",
+        "version": "0.1.5"
+      },
+      "url": "http://localhost:3333/build/lowcode/meta.js",
+      "urls": {
+        "default": "http://localhost:3333/build/lowcode/meta.js"
+      },
+      "advancedUrls": {
+        "default": [
+          "http://localhost:3333/build/lowcode/meta.js"
+        ]
+      }
+    }
+
+  ],
+  "sort": {
+    "groupList": ["精选组件", "原子组件"],
+    "categoryList": ["通用", "导航", "信息输入", "信息展示", "信息反馈"]
+  },
+  "groupList": ["精选组件", "原子组件"],
+  "ignoreComponents": {}
+}
