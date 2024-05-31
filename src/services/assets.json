@@ -17,17 +17,28 @@
     },
     {
       "package": "@ant-design/icons",
-      "version": "5.3.7",
-      "urls": ["https://cdnjs.cloudflare.com/ajax/libs/ant-design-icons/5.3.7/index.umd.min.js"],
+      "version": "4.5.0",
+      "urls": ["https://g.alicdn.com/code/npm/@ali/ant-design-icons-cdn/4.5.0/index.umd.min.js"],
       "library": "icons"
     },
     {
       "package": "antd",
-      "version": "5.12.6",
+      "version": "4.24.10",
       "urls": [
-        "https://cdnjs.cloudflare.com/ajax/libs/antd/5.12.6/antd.min.js"
+        "https://g.alicdn.com/code/lib/antd/4.24.10/antd.min.js",
+        "https://g.alicdn.com/code/lib/antd/4.24.10/antd.min.css"
       ],
       "library": "antd"
+    },
+    {
+      "title": "fusion组件库",
+      "package": "@alifd/next",
+      "version": "1.26.4",
+      "urls": [
+        "https://g.alicdn.com/code/lib/alifd__next/1.26.4/next.min.css",
+        "https://g.alicdn.com/code/lib/alifd__next/1.26.4/next-with-locales.min.js"
+      ],
+      "library": "Next"
     },
     {
       "package": "@alilc/antd-lowcode-materials",
@@ -60,9 +71,9 @@
       "ibrary": "antProComponents"
     },
     {
-      "package": "pro-material",
-      "version": "0.1.5",
-      "library": "ProMaterial",
+      "package": "cust-materials",
+      "version": "0.1.0",
+      "library": "CustMaterials",
       "urls": [
         "http://localhost:3333/build/lowcode/render/default/view.js",
         "http://localhost:3333/build/lowcode/render/default/view.css"
@@ -93,10 +104,10 @@
       }
     },
     {
-      "exportName": "ProMaterialMeta",
+      "exportName": "CustMaterialsMeta",
       "npm": {
-        "package": "pro-material",
-        "version": "0.1.5"
+        "package": "cust-materials",
+        "version": "0.1.0"
       },
       "url": "http://localhost:3333/build/lowcode/meta.js",
       "urls": {
@@ -112,7 +123,7 @@
   ],
   "sort": {
     "groupList": ["精选组件", "原子组件"],
-    "categoryList": ["通用", "导航", "信息输入", "信息展示", "信息反馈"]
+    "categoryList": ["通用", "布局", "导航", "信息输入", "信息展示", "信息反馈"]
   },
   "groupList": ["精选组件", "原子组件"],
   "ignoreComponents": {}
