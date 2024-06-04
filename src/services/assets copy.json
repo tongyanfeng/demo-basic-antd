@@ -71,9 +71,9 @@
       "ibrary": "antProComponents"
     },
     {
-      "package": "pro-material",
-      "version": "0.1.5",
-      "library": "ProMaterial",
+      "package": "cust-materials",
+      "version": "0.1.0",
+      "library": "CustMaterials",
       "urls": [
         "http://localhost:3333/build/lowcode/render/default/view.js",
         "http://localhost:3333/build/lowcode/render/default/view.css"
@@ -104,10 +104,10 @@
       }
     },
     {
-      "exportName": "ProMaterialMeta",
+      "exportName": "CustMaterialsMeta",
       "npm": {
-        "package": "pro-material",
-        "version": "0.1.5"
+        "package": "cust-materials",
+        "version": "0.1.0"
       },
       "url": "http://localhost:3333/build/lowcode/meta.js",
       "urls": {
