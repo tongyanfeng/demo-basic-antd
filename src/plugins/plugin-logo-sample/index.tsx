@@ -27,7 +27,7 @@ const Logo: React.FC<IProps> = (props): React.ReactElement => {
                 position: 'relative',
                 top: '-2px',
               }}
-              src="https://img.alicdn.com/imgextra/i4/O1CN013upU1R1yl5wVezP8k_!!6000000006618-2-tps-512-512.png"
+              src="http://localhost:5556/public/general-static/icons/O1CN013upU1R1yl5wVezP8k_!!6000000006618-2-tps-512-512.png"
             />
           )}
           triggerType="click"
@@ -57,7 +57,7 @@ const LogoSamplePlugin = (ctx: IPublicModelPluginContext) => {
         name: 'logo',
         content: <Logo scenarioDisplayName={scenarioDisplayName} scenarioInfo={scenarioInfo}  />,
         contentProps: {
-          logo: 'https://img.alicdn.com/imgextra/i4/O1CN013w2bmQ25WAIha4Hx9_!!6000000007533-55-tps-137-26.svg',
+          logo: 'http://localhost:5556/public/general-static/icons/O1CN013w2bmQ25WAIha4Hx9_!!6000000007533-55-tps-137-26.svg',
           href: 'https://lowcode-engine.cn',
         },
         props: {
